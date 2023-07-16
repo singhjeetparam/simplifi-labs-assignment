@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  max-width: 1920px;
+  background-color: #f5f4f4;
+}
+/* ASIDE SECITON */
+aside.aside {
+  background-color: #ffffff;
+  max-width: 250px;
+  width: 100%;
+  height: 100vh;
+}
+
+.aside-top {
+  margin-left: 28px;
+  margin-top: 18px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-container img {
+  width: 105px;
+  height: 39px;
+  margin-left: 31px;
+}
+
+.tags-list ul li {
+  list-style: none;
+}
+
+.tags-list a {
+  text-decoration: none;
+}
+
+.tags-list > ul {
+  margin-left: 24px;
+}
+
+.tags-list > ul > li {
+  font: normal normal 600 14px/19px Montserrat;
+  letter-spacing: 0px;
+  color: #252b3b;
+}
+
+.tags-list > ul > li > ul {
+  margin-left: 14px;
+}
+
+.tags-list > ul > li > ul > li {
+  font: normal normal 400 14px/19px Montserrat;
+  letter-spacing: 0px;
+  color: #252b3b;
+  margin-bottom: 23px;
+}
+
+.tags-list > ul > li > ul > li:first-child {
+  margin-top: 17px;
+}
+
+.tags-list .active-btn {
+  padding: 9px 26px 9px 16px;
+  background-color: #252b3b;
+  border-radius: 19px;
+  color: #ffffff;
+  margin-left: -14px;
+}
+
+/* MAIN */
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 21px;
+  margin-bottom: 46px;
+}
+
+.page-tag h1 {
+  font: normal normal 600 25px/33px Montserrat;
+  letter-spacing: 0px;
+  color: #252b3b;
+}
+
+.search-bar {
+  background: #6f696912;
+  border-radius: 25px;
+  padding: 10px;
+  min-width: 400px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.search-bar input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font: normal normal 300 16px/21px Montserrat;
+  letter-spacing: 0px;
+  color: #252b3b;
+}
+
+.add-ons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.add-expert{
+    background-color: #EC9324;
+    padding: 9px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.add-expert h4{
+    color: #ffffff;
+    font: normal normal 400 14px/19px Montserrat;
+    margin-left: 5px;
+}
+
+.filter{
+    background: #EC9324;
+    border-radius: 32px;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+}
+
+.display-view{
+    background: #ffffff;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80px;
+}
+
+.grid-view{
+    height: 36px;
+    width: 36px;
+    background-color: transparent;
+    border-radius: 32px;
+    text-align: center;
+}
+
+.list-view{
+    height: 36px;
+    width: 36px;
+    background-color: #EC9324;
+    border-radius: 32px;
+    text-align: center;
+}
+
+.user{
+    background: #ffffff;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-icon{
+    background: #f5f4f4;
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 2px;
+}
+
+.user-name h4{
+    font: normal normal 400 14px/19px Montserrat;
+    margin-left: 9px;
+   
+}
+
+.dashboard{
+    display: flex;
+    background-color: #ffffffd4;
+    border-radius: 15px;
+    padding: 10px;
+    padding-bottom: 64px;
+    margin: 10px;
+}
+
+.dashboard-table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.dashboard-table  td{
+    padding: 10px 10px;
+    border-bottom: 1px solid black;
+
+}
+
+
+.dashboard-table thead th{
+    text-align: left;
+    padding: 0px 10px;
+}
+
+.dashboard-table thead th{
+    font: normal normal 600 14px/19px Montserrat;
+    opacity: 0.7;
+    
+}
+
+.dashboard-table tbody tr td{
+    font: normal normal 400 12px/19px Montserrat;
+    letter-spacing: 0.7px;
+    color: #482f2f;
+}
+
+.dashboard-table .dt-userImage img{
+    height: 23px;
+    width: 23px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.dt-userImage{
+    display: flex;
+} 
+
+

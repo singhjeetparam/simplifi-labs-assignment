@@ -1,0 +1,647 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simplifi Labs Assignment</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+    </head>
+
+    <body>
+        <aside class="aside">
+            <div class="aside-container">
+                <div class="aside-top">
+                    <div class="menu-burger-container">
+                        <svg width="22px" height="22px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path d="M20 7L4 7" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"></path>
+                                <path d="M20 12L4 12" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"></path>
+                                <path d="M20 17L4 17" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"></path>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="logo-container">
+                        <img src="./assets//logo.png" alt="logo">
+                    </div>
+                </div>
+                <div class="aside-main">
+                    <div class="tags-list">
+                        <ul>
+                            <li><a href="#">Manage</a>
+                                <ul>
+                                    <li><a href="#">Moderate</a></li>
+                                    <li><a href="#">Tag</a></li>
+                                    <li><a href="#">Compilance</a></li>
+                                    <li><a href="#">Payments</a></li>
+                                    <li><a href="#">Advance Settings</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Users</a>
+                                <ul>
+                                    <li><a href="#">Admin</a></li>
+                                    <li><a href="#">Client</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Engagements</a>
+                                <ul>
+                                    <li><a href="#">Projects</a></li>
+                                    <li><a href="#">Calls</a></li>
+                                    <li><a href="#">Calender</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Experts</a>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="active-btn">Expert Search</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Value Chain</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <main>
+            <div class="main-container">
+                <div class="main-header">
+                    <div class="page-tag">
+                        <h1>Our Experts</h1>
+                    </div>
+                    <div class="search-bar">
+                        <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M17.0392 15.6244C18.2714 14.084 19.0082 12.1301 19.0082 10.0041C19.0082 5.03127 14.9769 1 10.0041 1C5.03127 1 1 5.03127 1 10.0041C1 14.9769 5.03127 19.0082 10.0041 19.0082C12.1301 19.0082 14.084 18.2714 15.6244 17.0392L21.2921 22.707C21.6828 23.0977 22.3163 23.0977 22.707 22.707C23.0977 22.3163 23.0977 21.6828 22.707 21.2921L17.0392 15.6244ZM10.0041 17.0173C6.1308 17.0173 2.99087 13.8774 2.99087 10.0041C2.99087 6.1308 6.1308 2.99087 10.0041 2.99087C13.8774 2.99087 17.0173 6.1308 17.0173 10.0041C17.0173 13.8774 13.8774 17.0173 10.0041 17.0173Z"
+                                    fill="#0F0F0F"></path>
+                            </g>
+                        </svg>
+                        <input type="text" placeholder="Search By Name, Expertise, Status">
+                    </div>
+                    <div class="add-ons">
+                        <div class="add-expert">
+                            <svg width="16px" height="16px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path
+                                        d="M13 3C13 2.44772 12.5523 2 12 2C11.4477 2 11 2.44772 11 3V11H3C2.44772 11 2 11.4477 2 12C2 12.5523 2.44772 13 3 13H11V21C11 21.5523 11.4477 22 12 22C12.5523 22 13 21.5523 13 21V13H21C21.5523 13 22 12.5523 22 12C22 11.4477 21.5523 11 21 11H13V3Z"
+                                        fill="#ffffff"></path>
+                                </g>
+                            </svg>
+                            <h4>Add Expert</h4>
+                        </div>
+                        <div class="filter">
+                            <svg width="15px" height="36px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path
+                                        d="M19 3H5C3.58579 3 2.87868 3 2.43934 3.4122C2 3.8244 2 4.48782 2 5.81466V6.50448C2 7.54232 2 8.06124 2.2596 8.49142C2.5192 8.9216 2.99347 9.18858 3.94202 9.72255L6.85504 11.3624C7.49146 11.7206 7.80967 11.8998 8.03751 12.0976C8.51199 12.5095 8.80408 12.9935 8.93644 13.5872C9 13.8722 9 14.2058 9 14.8729L9 17.5424C9 18.452 9 18.9067 9.25192 19.2613C9.50385 19.6158 9.95128 19.7907 10.8462 20.1406C12.7248 20.875 13.6641 21.2422 14.3321 20.8244C15 20.4066 15 19.4519 15 17.5424V14.8729C15 14.2058 15 13.8722 15.0636 13.5872C15.1959 12.9935 15.488 12.5095 15.9625 12.0976C16.1903 11.8998 16.5085 11.7206 17.145 11.3624L20.058 9.72255C21.0065 9.18858 21.4808 8.9216 21.7404 8.49142C22 8.06124 22 7.54232 22 6.50448V5.81466C22 4.48782 22 3.8244 21.5607 3.4122C21.1213 3 20.4142 3 19 3Z"
+                                        stroke="#ffffff" stroke-width="1.5"></path>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="display-view">
+                            <div class="grid-view">
+                                <svg width="20px" height="36px" viewBox="0 0 28 28" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#000000">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <title>grid</title>
+                                        <desc>Created with Sketch Beta.</desc>
+                                        <defs> </defs>
+                                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                                            sketch:type="MSPage">
+                                            <g id="Icon-Set" sketch:type="MSLayerGroup"
+                                                transform="translate(-102.000000, -933.000000)" fill="#000000">
+                                                <path
+                                                    d="M128,941 C128,942.104 127.104,943 126,943 L122,943 C120.896,943 120,942.104 120,941 L120,937 C120,935.896 120.896,935 122,935 L126,935 C127.104,935 128,935.896 128,937 L128,941 L128,941 Z M126,933 L122,933 C119.791,933 118,934.791 118,937 L118,941 C118,943.209 119.791,945 122,945 L126,945 C128.209,945 130,943.209 130,941 L130,937 C130,934.791 128.209,933 126,933 L126,933 Z M128,957 C128,958.104 127.104,959 126,959 L122,959 C120.896,959 120,958.104 120,957 L120,953 C120,951.896 120.896,951 122,951 L126,951 C127.104,951 128,951.896 128,953 L128,957 L128,957 Z M126,949 L122,949 C119.791,949 118,950.791 118,953 L118,957 C118,959.209 119.791,961 122,961 L126,961 C128.209,961 130,959.209 130,957 L130,953 C130,950.791 128.209,949 126,949 L126,949 Z M112,941 C112,942.104 111.104,943 110,943 L106,943 C104.896,943 104,942.104 104,941 L104,937 C104,935.896 104.896,935 106,935 L110,935 C111.104,935 112,935.896 112,937 L112,941 L112,941 Z M110,933 L106,933 C103.791,933 102,934.791 102,937 L102,941 C102,943.209 103.791,945 106,945 L110,945 C112.209,945 114,943.209 114,941 L114,937 C114,934.791 112.209,933 110,933 L110,933 Z M112,957 C112,958.104 111.104,959 110,959 L106,959 C104.896,959 104,958.104 104,957 L104,953 C104,951.896 104.896,951 106,951 L110,951 C111.104,951 112,951.896 112,953 L112,957 L112,957 Z M110,949 L106,949 C103.791,949 102,950.791 102,953 L102,957 C102,959.209 103.791,961 106,961 L110,961 C112.209,961 114,959.209 114,957 L114,953 C114,950.791 112.209,949 110,949 L110,949 Z"
+                                                    id="grid" sketch:type="MSShapeGroup"> </path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="list-view">
+                                <svg width="20px" height="36px" viewBox="0 0 32 32" enable-background="new 0 0 32 32"
+                                    id="Editable-line" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ffffff">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <circle cx="5" cy="6" fill="none" id="XMLID_303_" r="1" stroke="#ffffff"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
+                                            stroke-width="2"></circle>
+                                        <circle cx="5" cy="16" fill="none" id="XMLID_305_" r="1" stroke="#ffffff"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
+                                            stroke-width="2"></circle>
+                                        <circle cx="5" cy="26" fill="none" id="XMLID_304_" r="1" stroke="#ffffff"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
+                                            stroke-width="2"></circle>
+                                        <line fill="none" id="XMLID_29_" stroke="#ffffff" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="10" x2="28"
+                                            y1="6" y2="6"></line>
+                                        <line fill="none" id="XMLID_30_" stroke="#ffffff" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="10" x2="28"
+                                            y1="16" y2="16"></line>
+                                        <line fill="none" id="XMLID_31_" stroke="#ffffff" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="10" x2="28"
+                                            y1="26" y2="26"></line>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="user">
+                            <div class="user-icon">
+                                <svg width="30px" height="44px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
+                                    fill="#000000">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path
+                                            d="m 8 1 c -1.65625 0 -3 1.34375 -3 3 s 1.34375 3 3 3 s 3 -1.34375 3 -3 s -1.34375 -3 -3 -3 z m -1.5 7 c -2.492188 0 -4.5 2.007812 -4.5 4.5 v 0.5 c 0 1.109375 0.890625 2 2 2 h 8 c 1.109375 0 2 -0.890625 2 -2 v -0.5 c 0 -2.492188 -2.007812 -4.5 -4.5 -4.5 z m 0 0"
+                                            fill="#252b3b"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="user-name">
+                                <h4>Vijay Sharma</h4>
+                            </div>
+                            <div class="drop-down">
+                                <svg width="20px" height="40px" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"
+                                    fill="#000000">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path fill="#252b23"
+                                            d="M13.098 8H6.902c-.751 0-1.172.754-.708 1.268L9.292 12.7c.36.399 1.055.399 1.416 0l3.098-3.433C14.27 8.754 13.849 8 13.098 8Z">
+                                        </path>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dashboard">
+                    <table class="dashboard-table">
+                        <thead>
+                            <tr>
+                                <th><input type="checkbox"></th>
+                                <th>
+                                Name
+                                <svg width="12px" height="13px" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <path
+                                                d="M11.1924 5.65685C11.5829 5.26633 11.5829 4.63316 11.1924 4.24264L8.36397 1.41421C8.30576 1.356 8.24485 1.30212 8.18165 1.25259C7.50286 0.720577 6.55947 0.689024 5.84929 1.15793C5.73839 1.23115 5.63317 1.31658 5.53554 1.41421L2.70711 4.24264C2.31658 4.63316 2.31658 5.26633 2.70711 5.65685C3.09763 6.04738 3.7308 6.04738 4.12132 5.65685L6.00003 3.77814V18C6.00003 18.5523 6.44775 19 7.00003 19C7.55232 19 8.00003 18.5523 8.00003 18V3.8787L9.77818 5.65685C10.1687 6.04737 10.8019 6.04737 11.1924 5.65685Z"
+                                                fill="#252b3b"></path>
+                                            <path
+                                                d="M12.7071 18.3432C12.3166 18.7337 12.3166 19.3668 12.7071 19.7574L15.5355 22.5858C15.6332 22.6834 15.7384 22.7689 15.8493 22.8421C16.6256 23.3546 17.6805 23.2692 18.364 22.5858L21.1924 19.7574C21.5829 19.3668 21.5829 18.7337 21.1924 18.3432C20.8019 17.9526 20.1687 17.9526 19.7782 18.3432L18 20.1213L18 6C18 5.44771 17.5523 5 17 5C16.4477 5 16 5.44771 16 6L16 20.2218L14.1213 18.3432C13.7308 17.9526 13.0976 17.9526 12.7071 18.3432Z"
+                                                fill="#252b3b"></path>
+                                        </g>
+                                    </svg>
+                                </th>
+                                <th>
+                                    Email  
+                                </th>
+                                <th>
+                                    Phone  
+                                </th>
+                                <th>
+                                    ID  
+                                </th>
+                                <th>
+                                    Cost Price  
+                                    <svg width="12px" height="13px" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <path
+                                                d="M11.1924 5.65685C11.5829 5.26633 11.5829 4.63316 11.1924 4.24264L8.36397 1.41421C8.30576 1.356 8.24485 1.30212 8.18165 1.25259C7.50286 0.720577 6.55947 0.689024 5.84929 1.15793C5.73839 1.23115 5.63317 1.31658 5.53554 1.41421L2.70711 4.24264C2.31658 4.63316 2.31658 5.26633 2.70711 5.65685C3.09763 6.04738 3.7308 6.04738 4.12132 5.65685L6.00003 3.77814V18C6.00003 18.5523 6.44775 19 7.00003 19C7.55232 19 8.00003 18.5523 8.00003 18V3.8787L9.77818 5.65685C10.1687 6.04737 10.8019 6.04737 11.1924 5.65685Z"
+                                                fill="#252b3b"></path>
+                                            <path
+                                                d="M12.7071 18.3432C12.3166 18.7337 12.3166 19.3668 12.7071 19.7574L15.5355 22.5858C15.6332 22.6834 15.7384 22.7689 15.8493 22.8421C16.6256 23.3546 17.6805 23.2692 18.364 22.5858L21.1924 19.7574C21.5829 19.3668 21.5829 18.7337 21.1924 18.3432C20.8019 17.9526 20.1687 17.9526 19.7782 18.3432L18 20.1213L18 6C18 5.44771 17.5523 5 17 5C16.4477 5 16 5.44771 16 6L16 20.2218L14.1213 18.3432C13.7308 17.9526 13.0976 17.9526 12.7071 18.3432Z"
+                                                fill="#252b3b"></path>
+                                        </g>
+                                    </svg>
+                                </th>
+                                <th>
+                                    Created On  
+                                    <svg width="12px" height="13px" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <path
+                                                d="M11.1924 5.65685C11.5829 5.26633 11.5829 4.63316 11.1924 4.24264L8.36397 1.41421C8.30576 1.356 8.24485 1.30212 8.18165 1.25259C7.50286 0.720577 6.55947 0.689024 5.84929 1.15793C5.73839 1.23115 5.63317 1.31658 5.53554 1.41421L2.70711 4.24264C2.31658 4.63316 2.31658 5.26633 2.70711 5.65685C3.09763 6.04738 3.7308 6.04738 4.12132 5.65685L6.00003 3.77814V18C6.00003 18.5523 6.44775 19 7.00003 19C7.55232 19 8.00003 18.5523 8.00003 18V3.8787L9.77818 5.65685C10.1687 6.04737 10.8019 6.04737 11.1924 5.65685Z"
+                                                fill="#252b3b"></path>
+                                            <path
+                                                d="M12.7071 18.3432C12.3166 18.7337 12.3166 19.3668 12.7071 19.7574L15.5355 22.5858C15.6332 22.6834 15.7384 22.7689 15.8493 22.8421C16.6256 23.3546 17.6805 23.2692 18.364 22.5858L21.1924 19.7574C21.5829 19.3668 21.5829 18.7337 21.1924 18.3432C20.8019 17.9526 20.1687 17.9526 19.7782 18.3432L18 20.1213L18 6C18 5.44771 17.5523 5 17 5C16.4477 5 16 5.44771 16 6L16 20.2218L14.1213 18.3432C13.7308 17.9526 13.0976 17.9526 12.7071 18.3432Z"
+                                                fill="#252b3b"></path>
+                                        </g>
+                                    </svg>
+                                </th>
+                                <th>
+                                    Status  
+                                    <svg width="12px" height="13px" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <path
+                                                d="M11.1924 5.65685C11.5829 5.26633 11.5829 4.63316 11.1924 4.24264L8.36397 1.41421C8.30576 1.356 8.24485 1.30212 8.18165 1.25259C7.50286 0.720577 6.55947 0.689024 5.84929 1.15793C5.73839 1.23115 5.63317 1.31658 5.53554 1.41421L2.70711 4.24264C2.31658 4.63316 2.31658 5.26633 2.70711 5.65685C3.09763 6.04738 3.7308 6.04738 4.12132 5.65685L6.00003 3.77814V18C6.00003 18.5523 6.44775 19 7.00003 19C7.55232 19 8.00003 18.5523 8.00003 18V3.8787L9.77818 5.65685C10.1687 6.04737 10.8019 6.04737 11.1924 5.65685Z"
+                                                fill="#252b3b"></path>
+                                            <path
+                                                d="M12.7071 18.3432C12.3166 18.7337 12.3166 19.3668 12.7071 19.7574L15.5355 22.5858C15.6332 22.6834 15.7384 22.7689 15.8493 22.8421C16.6256 23.3546 17.6805 23.2692 18.364 22.5858L21.1924 19.7574C21.5829 19.3668 21.5829 18.7337 21.1924 18.3432C20.8019 17.9526 20.1687 17.9526 19.7782 18.3432L18 20.1213L18 6C18 5.44771 17.5523 5 17 5C16.4477 5 16 5.44771 16 6L16 20.2218L14.1213 18.3432C13.7308 17.9526 13.0976 17.9526 12.7071 18.3432Z"
+                                                fill="#252b3b"></path>
+                                        </g>
+                                    </svg>
+                                </th>
+                                <th>
+                                    Call  
+                                    <svg width="12px" height="13px" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <path
+                                                d="M11.1924 5.65685C11.5829 5.26633 11.5829 4.63316 11.1924 4.24264L8.36397 1.41421C8.30576 1.356 8.24485 1.30212 8.18165 1.25259C7.50286 0.720577 6.55947 0.689024 5.84929 1.15793C5.73839 1.23115 5.63317 1.31658 5.53554 1.41421L2.70711 4.24264C2.31658 4.63316 2.31658 5.26633 2.70711 5.65685C3.09763 6.04738 3.7308 6.04738 4.12132 5.65685L6.00003 3.77814V18C6.00003 18.5523 6.44775 19 7.00003 19C7.55232 19 8.00003 18.5523 8.00003 18V3.8787L9.77818 5.65685C10.1687 6.04737 10.8019 6.04737 11.1924 5.65685Z"
+                                                fill="#252b3b"></path>
+                                            <path
+                                                d="M12.7071 18.3432C12.3166 18.7337 12.3166 19.3668 12.7071 19.7574L15.5355 22.5858C15.6332 22.6834 15.7384 22.7689 15.8493 22.8421C16.6256 23.3546 17.6805 23.2692 18.364 22.5858L21.1924 19.7574C21.5829 19.3668 21.5829 18.7337 21.1924 18.3432C20.8019 17.9526 20.1687 17.9526 19.7782 18.3432L18 20.1213L18 6C18 5.44771 17.5523 5 17 5C16.4477 5 16 5.44771 16 6L16 20.2218L14.1213 18.3432C13.7308 17.9526 13.0976 17.9526 12.7071 18.3432Z"
+                                                fill="#252b3b"></path>
+                                        </g>
+                                    </svg>
+                                </th>
+                                <th>
+                                    Projects  
+                                    <svg width="12px" height="13px" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <path
+                                                d="M11.1924 5.65685C11.5829 5.26633 11.5829 4.63316 11.1924 4.24264L8.36397 1.41421C8.30576 1.356 8.24485 1.30212 8.18165 1.25259C7.50286 0.720577 6.55947 0.689024 5.84929 1.15793C5.73839 1.23115 5.63317 1.31658 5.53554 1.41421L2.70711 4.24264C2.31658 4.63316 2.31658 5.26633 2.70711 5.65685C3.09763 6.04738 3.7308 6.04738 4.12132 5.65685L6.00003 3.77814V18C6.00003 18.5523 6.44775 19 7.00003 19C7.55232 19 8.00003 18.5523 8.00003 18V3.8787L9.77818 5.65685C10.1687 6.04737 10.8019 6.04737 11.1924 5.65685Z"
+                                                fill="#252b3b"></path>
+                                            <path
+                                                d="M12.7071 18.3432C12.3166 18.7337 12.3166 19.3668 12.7071 19.7574L15.5355 22.5858C15.6332 22.6834 15.7384 22.7689 15.8493 22.8421C16.6256 23.3546 17.6805 23.2692 18.364 22.5858L21.1924 19.7574C21.5829 19.3668 21.5829 18.7337 21.1924 18.3432C20.8019 17.9526 20.1687 17.9526 19.7782 18.3432L18 20.1213L18 6C18 5.44771 17.5523 5 17 5C16.4477 5 16 5.44771 16 6L16 20.2218L14.1213 18.3432C13.7308 17.9526 13.0976 17.9526 12.7071 18.3432Z"
+                                                fill="#252b3b"></path>
+                                        </g>
+                                    </svg>
+                                </th>
+                                <th>
+                                    Bad Calls  
+                                </th>
+                                <th>
+                                    Rating  
+                                    <svg width="12px" height="13px" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <path
+                                                d="M11.1924 5.65685C11.5829 5.26633 11.5829 4.63316 11.1924 4.24264L8.36397 1.41421C8.30576 1.356 8.24485 1.30212 8.18165 1.25259C7.50286 0.720577 6.55947 0.689024 5.84929 1.15793C5.73839 1.23115 5.63317 1.31658 5.53554 1.41421L2.70711 4.24264C2.31658 4.63316 2.31658 5.26633 2.70711 5.65685C3.09763 6.04738 3.7308 6.04738 4.12132 5.65685L6.00003 3.77814V18C6.00003 18.5523 6.44775 19 7.00003 19C7.55232 19 8.00003 18.5523 8.00003 18V3.8787L9.77818 5.65685C10.1687 6.04737 10.8019 6.04737 11.1924 5.65685Z"
+                                                fill="#252b3b"></path>
+                                            <path
+                                                d="M12.7071 18.3432C12.3166 18.7337 12.3166 19.3668 12.7071 19.7574L15.5355 22.5858C15.6332 22.6834 15.7384 22.7689 15.8493 22.8421C16.6256 23.3546 17.6805 23.2692 18.364 22.5858L21.1924 19.7574C21.5829 19.3668 21.5829 18.7337 21.1924 18.3432C20.8019 17.9526 20.1687 17.9526 19.7782 18.3432L18 20.1213L18 6C18 5.44771 17.5523 5 17 5C16.4477 5 16 5.44771 16 6L16 20.2218L14.1213 18.3432C13.7308 17.9526 13.0976 17.9526 12.7071 18.3432Z"
+                                                fill="#252b3b"></path>
+                                        </g>
+                                    </svg>
+                                </th>
+                                <th>
+                                    More  
+                                </th>
+                                <th>
+                                    Action  
+                                </th>
+                                <th><svg width="64px" height="30px" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <path
+                                                d="M4 9.5C5.38071 9.5 6.5 10.6193 6.5 12C6.5 13.3807 5.38071 14.5 4 14.5C2.61929 14.5 1.5 13.3807 1.5 12C1.5 10.6193 2.61929 9.5 4 9.5Z"
+                                                fill="#000000"></path>
+                                            <path
+                                                d="M12 9.5C13.3807 9.5 14.5 10.6193 14.5 12C14.5 13.3807 13.3807 14.5 12 14.5C10.6193 14.5 9.5 13.3807 9.5 12C9.5 10.6193 10.6193 9.5 12 9.5Z"
+                                                fill="#000000"></path>
+                                            <path
+                                                d="M22.5 12C22.5 10.6193 21.3807 9.5 20 9.5C18.6193 9.5 17.5 10.6193 17.5 12C17.5 13.3807 18.6193 14.5 20 14.5C21.3807 14.5 22.5 13.3807 22.5 12Z"
+                                                fill="#000000"></path>
+                                        </g>
+                                    </svg></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td class="dt-userImage"><img src="./assets//userprofile.jpg" alt="">
+                                    <h6 class="dt-userName">Mr Amol Kulkarni  
+                                </td>
+                                <td class="dt-userEmail">
+                                    Vinayverma@gmail.com  
+                                </td>
+                                <td class="-dt-userPhone">
+                                    +91 1234567890  
+                                </td>
+                                <td class="dt-userId">
+                                    525363  
+                                </td>
+                                <td class="dt-cost">
+                                    2000  
+                                </td>
+                                <td class="dt-created">
+                                    27 July 2022  
+                                </td>
+                                <td class="dt-status">
+                                    Identified  
+                                </td>
+                                <td class="dt-call">
+                                    270  
+                                </td>
+                                <td class="dt-projects">
+                                    20  
+                                </td>
+                                <td class="dt-badCalls">
+                                    5  
+                                </td>
+                                <td class="dt-rating">
+                                    4.6  
+                                </td>
+                              <td class="dt-more">
+                                <svg width="64px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(90)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 9.5C5.38071 9.5 6.5 10.6193 6.5 12C6.5 13.3807 5.38071 14.5 4 14.5C2.61929 14.5 1.5 13.3807 1.5 12C1.5 10.6193 2.61929 9.5 4 9.5Z" fill="#000000"></path> <path d="M12 9.5C13.3807 9.5 14.5 10.6193 14.5 12C14.5 13.3807 13.3807 14.5 12 14.5C10.6193 14.5 9.5 13.3807 9.5 12C9.5 10.6193 10.6193 9.5 12 9.5Z" fill="#000000"></path> <path d="M22.5 12C22.5 10.6193 21.3807 9.5 20 9.5C18.6193 9.5 17.5 10.6193 17.5 12C17.5 13.3807 18.6193 14.5 20 14.5C21.3807 14.5 22.5 13.3807 22.5 12Z" fill="#000000"></path> </g></svg>
+                            </td>
+                                <td class="dt-action">
+                                    X  
+                                </td>
+                                
+                                <td class="dt-misc">
+                                    X  
+                                </td>
+                                
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td class="dt-userImage"><img src="./assets//userprofile.jpg" alt="">
+                                    <h6 class="dt-userName">Mr Amol Kulkarni  
+                                </td>
+                                <td class="dt-userEmail">
+                                    Vinayverma@gmail.com  
+                                </td>
+                                <td class="-dt-userPhone">
+                                    +91 1234567890  
+                                </td>
+                                <td class="dt-userId">
+                                    525363  
+                                </td>
+                                <td class="dt-cost">
+                                    2000  
+                                </td>
+                                <td class="dt-created">
+                                    27 July 2022  
+                                </td>
+                                <td class="dt-status">
+                                    Identified  
+                                </td>
+                                <td class="dt-call">
+                                    270  
+                                </td>
+                                <td class="dt-projects">
+                                    20  
+                                </td>
+                                <td class="dt-badCalls">
+                                    5  
+                                </td>
+                                <td class="dt-rating">
+                                    4.6  
+                                </td>
+                                <td class="dt-more">
+                                    <svg width="64px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(90)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 9.5C5.38071 9.5 6.5 10.6193 6.5 12C6.5 13.3807 5.38071 14.5 4 14.5C2.61929 14.5 1.5 13.3807 1.5 12C1.5 10.6193 2.61929 9.5 4 9.5Z" fill="#000000"></path> <path d="M12 9.5C13.3807 9.5 14.5 10.6193 14.5 12C14.5 13.3807 13.3807 14.5 12 14.5C10.6193 14.5 9.5 13.3807 9.5 12C9.5 10.6193 10.6193 9.5 12 9.5Z" fill="#000000"></path> <path d="M22.5 12C22.5 10.6193 21.3807 9.5 20 9.5C18.6193 9.5 17.5 10.6193 17.5 12C17.5 13.3807 18.6193 14.5 20 14.5C21.3807 14.5 22.5 13.3807 22.5 12Z" fill="#000000"></path> </g></svg>
+                                </td>
+                                <td class="dt-action">
+                                    X  
+                                </td>
+                                
+                                <td class="dt-misc">
+                                    X  
+                                </td>
+                                
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td class="dt-userImage"><img src="./assets//userprofile.jpg" alt="">
+                                    <h6 class="dt-userName">Mr Amol Kulkarni  
+                                </td>
+                                <td class="dt-userEmail">
+                                    Vinayverma@gmail.com  
+                                </td>
+                                <td class="-dt-userPhone">
+                                    +91 1234567890  
+                                </td>
+                                <td class="dt-userId">
+                                    525363  
+                                </td>
+                                <td class="dt-cost">
+                                    2000  
+                                </td>
+                                <td class="dt-created">
+                                    27 July 2022  
+                                </td>
+                                <td class="dt-status">
+                                    Identified  
+                                </td>
+                                <td class="dt-call">
+                                    270  
+                                </td>
+                                <td class="dt-projects">
+                                    20  
+                                </td>
+                                <td class="dt-badCalls">
+                                    5  
+                                </td>
+                                <td class="dt-rating">
+                                    4.6  
+                                </td>
+                              <td class="dt-more">
+                                <svg width="64px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(90)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 9.5C5.38071 9.5 6.5 10.6193 6.5 12C6.5 13.3807 5.38071 14.5 4 14.5C2.61929 14.5 1.5 13.3807 1.5 12C1.5 10.6193 2.61929 9.5 4 9.5Z" fill="#000000"></path> <path d="M12 9.5C13.3807 9.5 14.5 10.6193 14.5 12C14.5 13.3807 13.3807 14.5 12 14.5C10.6193 14.5 9.5 13.3807 9.5 12C9.5 10.6193 10.6193 9.5 12 9.5Z" fill="#000000"></path> <path d="M22.5 12C22.5 10.6193 21.3807 9.5 20 9.5C18.6193 9.5 17.5 10.6193 17.5 12C17.5 13.3807 18.6193 14.5 20 14.5C21.3807 14.5 22.5 13.3807 22.5 12Z" fill="#000000"></path> </g></svg>
+                            </td>
+                                <td class="dt-action">
+                                    X  
+                                </td>
+                                
+                                <td class="dt-misc">
+                                    X  
+                                </td>
+                                
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td class="dt-userImage"><img src="./assets//userprofile.jpg" alt="">
+                                    <h6 class="dt-userName">Mr Amol Kulkarni  
+                                </td>
+                                <td class="dt-userEmail">
+                                    Vinayverma@gmail.com  
+                                </td>
+                                <td class="-dt-userPhone">
+                                    +91 1234567890  
+                                </td>
+                                <td class="dt-userId">
+                                    525363  
+                                </td>
+                                <td class="dt-cost">
+                                    2000  
+                                </td>
+                                <td class="dt-created">
+                                    27 July 2022  
+                                </td>
+                                <td class="dt-status">
+                                    Identified  
+                                </td>
+                                <td class="dt-call">
+                                    270  
+                                </td>
+                                <td class="dt-projects">
+                                    20  
+                                </td>
+                                <td class="dt-badCalls">
+                                    5  
+                                </td>
+                                <td class="dt-rating">
+                                    4.6  
+                                </td>
+                              <td class="dt-more">
+                                <svg width="64px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(90)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 9.5C5.38071 9.5 6.5 10.6193 6.5 12C6.5 13.3807 5.38071 14.5 4 14.5C2.61929 14.5 1.5 13.3807 1.5 12C1.5 10.6193 2.61929 9.5 4 9.5Z" fill="#000000"></path> <path d="M12 9.5C13.3807 9.5 14.5 10.6193 14.5 12C14.5 13.3807 13.3807 14.5 12 14.5C10.6193 14.5 9.5 13.3807 9.5 12C9.5 10.6193 10.6193 9.5 12 9.5Z" fill="#000000"></path> <path d="M22.5 12C22.5 10.6193 21.3807 9.5 20 9.5C18.6193 9.5 17.5 10.6193 17.5 12C17.5 13.3807 18.6193 14.5 20 14.5C21.3807 14.5 22.5 13.3807 22.5 12Z" fill="#000000"></path> </g></svg>
+                            </td>
+                                <td class="dt-action">
+                                    X  
+                                </td>
+                                
+                                <td class="dt-misc">
+                                    X  
+                                </td>
+                                
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td class="dt-userImage"><img src="./assets//userprofile.jpg" alt="">
+                                    <h6 class="dt-userName">Mr Amol Kulkarni  
+                                </td>
+                                <td class="dt-userEmail">
+                                    Vinayverma@gmail.com  
+                                </td>
+                                <td class="-dt-userPhone">
+                                    +91 1234567890  
+                                </td>
+                                <td class="dt-userId">
+                                    525363  
+                                </td>
+                                <td class="dt-cost">
+                                    2000  
+                                </td>
+                                <td class="dt-created">
+                                    27 July 2022  
+                                </td>
+                                <td class="dt-status">
+                                    Identified  
+                                </td>
+                                <td class="dt-call">
+                                    270  
+                                </td>
+                                <td class="dt-projects">
+                                    20  
+                                </td>
+                                <td class="dt-badCalls">
+                                    5  
+                                </td>
+                                <td class="dt-rating">
+                                    4.6  
+                                </td>
+                              <td class="dt-more">
+                                <svg width="64px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(90)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 9.5C5.38071 9.5 6.5 10.6193 6.5 12C6.5 13.3807 5.38071 14.5 4 14.5C2.61929 14.5 1.5 13.3807 1.5 12C1.5 10.6193 2.61929 9.5 4 9.5Z" fill="#000000"></path> <path d="M12 9.5C13.3807 9.5 14.5 10.6193 14.5 12C14.5 13.3807 13.3807 14.5 12 14.5C10.6193 14.5 9.5 13.3807 9.5 12C9.5 10.6193 10.6193 9.5 12 9.5Z" fill="#000000"></path> <path d="M22.5 12C22.5 10.6193 21.3807 9.5 20 9.5C18.6193 9.5 17.5 10.6193 17.5 12C17.5 13.3807 18.6193 14.5 20 14.5C21.3807 14.5 22.5 13.3807 22.5 12Z" fill="#000000"></path> </g></svg>
+                            </td>
+                                <td class="dt-action">
+                                    X  
+                                </td>
+                                
+                                <td class="dt-misc">
+                                    X  
+                                </td>
+                                
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td class="dt-userImage"><img src="./assets//userprofile.jpg" alt="">
+                                    <h6 class="dt-userName">Mr Amol Kulkarni  
+                                </td>
+                                <td class="dt-userEmail">
+                                    Vinayverma@gmail.com  
+                                </td>
+                                <td class="-dt-userPhone">
+                                    +91 1234567890  
+                                </td>
+                                <td class="dt-userId">
+                                    525363  
+                                </td>
+                                <td class="dt-cost">
+                                    2000  
+                                </td>
+                                <td class="dt-created">
+                                    27 July 2022  
+                                </td>
+                                <td class="dt-status">
+                                    Identified  
+                                </td>
+                                <td class="dt-call">
+                                    270  
+                                </td>
+                                <td class="dt-projects">
+                                    20  
+                                </td>
+                                <td class="dt-badCalls">
+                                    5  
+                                </td>
+                                <td class="dt-rating">
+                                    4.6  
+                                </td>
+                              <td class="dt-more">
+                                <svg width="64px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(90)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 9.5C5.38071 9.5 6.5 10.6193 6.5 12C6.5 13.3807 5.38071 14.5 4 14.5C2.61929 14.5 1.5 13.3807 1.5 12C1.5 10.6193 2.61929 9.5 4 9.5Z" fill="#000000"></path> <path d="M12 9.5C13.3807 9.5 14.5 10.6193 14.5 12C14.5 13.3807 13.3807 14.5 12 14.5C10.6193 14.5 9.5 13.3807 9.5 12C9.5 10.6193 10.6193 9.5 12 9.5Z" fill="#000000"></path> <path d="M22.5 12C22.5 10.6193 21.3807 9.5 20 9.5C18.6193 9.5 17.5 10.6193 17.5 12C17.5 13.3807 18.6193 14.5 20 14.5C21.3807 14.5 22.5 13.3807 22.5 12Z" fill="#000000"></path> </g></svg>
+                            </td>
+                                <td class="dt-action">
+                                    X  
+                                </td>
+                                
+                                <td class="dt-misc">
+                                    X  
+                                </td>
+                                
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+
+    </body>
+
+    </html>
